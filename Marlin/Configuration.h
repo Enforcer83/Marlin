@@ -2336,7 +2336,7 @@
  *   M501 - Read settings from EEPROM. (i.e., Throw away unsaved changes)
  *   M502 - Revert settings to "factory" defaults. (Follow with M500 to init the EEPROM.)
  */
-//#define EEPROM_SETTINGS     // Persistent storage with M500 and M501
+#define EEPROM_SETTINGS     // Persistent storage with M500 and M501
 //#define DISABLE_M503        // Saves ~2700 bytes of flash. Disable for release!
 #define EEPROM_CHITCHAT       // Give feedback on EEPROM commands. Disable to save PROGMEM.
 #define EEPROM_BOOT_SILENT    // Keep M503 quiet and only give errors during first load
@@ -2909,7 +2909,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER  //Use this one for Color TFT Display (JKP 08/23/2023)
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER  //Use this one for Color TFT Display (JKP 08/23/2023)
 
 //
 // K.3D Full Graphic Smart Controller
@@ -3016,7 +3016,7 @@
 //
 // Connect to EXP1 on RAMPS and compatible boards.
 //
-#define CR10_STOCKDISPLAY
+//#define CR10_STOCKDISPLAY    //Use this one for Ender 5 Stock Display (JKP 08/23/2023)
 
 //
 // Ender-2 OEM display, a variant of the MKS_MINI_12864
